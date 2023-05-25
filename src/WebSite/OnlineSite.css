@@ -15,8 +15,6 @@ nav{
    background-color: aliceblue;
    position: sticky;
    top: 0;
-   
-   /* box-sizing: border-box; */
 }
 
 nav ul{
@@ -24,7 +22,7 @@ nav ul{
     margin: 0;
     padding: 0 20px;
     float: right;
-    /* align-items: center; */
+    
     justify-content: center;
 }
 nav ul li{
@@ -33,8 +31,6 @@ nav ul li{
     padding: 0 1px;
     text-decoration: none;
     align-items: center;
-    /* justify-content: center; */
-    
 }
 
 nav ul li a{
@@ -67,35 +63,22 @@ a:hover:after{
     width: 150px;
     height: 70px;
 }
-/* img{
-    max-width:  100%;;
-    max-height: auto;
-    
-} */
-.heroover img{
-    max-width: 100%;
-    max-height: auto;
-    position:absolute;
-}
-/* .heroover{
-    position: relative;
-    max-width: 600px; */
 
-.heroover figcaption{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 80%;
-    height: 50%;
-    padding: 10px;
-    
+.heroover{
+    background-image: url(./Images/hero4.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* position: absolute; */
 }
-.Offer-deals{
-    margin-bottom: 200px;
-    margin-left: 100px;
+.hero-cover{
+    padding-top: 80px;
+    margin-left: 150px;
 }
 #Trade-in-offer{
-    color: whitesmoke;
+    color: white;
     font-size: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -126,10 +109,8 @@ a:hover:after{
 .gallery{
     display: flex;
     flex-wrap: nowrap;
-    margin: 820px 0px 0px;
-    height: 200px;
+    margin: 80px 0px 0px;
     width: 100%;
-    position: relative;
     justify-content: space-around;
     
 }
@@ -144,7 +125,7 @@ a:hover:after{
 .gallery img{
     width: 152px;
     height: 152px;
-    padding: 20px 0px 30px 35px;
+    padding: 15px 0px 30px 35px;
     align-items: center;
 
 }
@@ -152,14 +133,10 @@ a:hover:after{
     width: 100px;
     height: 30px;
     padding: 6px 12px;
-    margin: 150px 30px 10px -100px;
-    /* width:40px;
-    margin: 10px 10px 40px 10px;
-     */
+    margin: 150px 30px 10px -110px;
     background-color: rgb(255, 192, 203,0.6);
     border-radius: 5px;
     border-color: rgb(243, 243, 228,0.5);
-    position: absolute;
     font-size:x-small;
     
 }
@@ -181,10 +158,10 @@ p {
 .outer-box{
     width: 100%;
     height: 400px;
-    margin: 15px 15px 20px 15px;
+    margin: 5px 15px 15px 5px;
     display: flex;
-    
     flex-wrap: nowrap;
+    /* gap: 20px; */
     justify-content: space-around;
 }
 .inner-box{
@@ -199,8 +176,6 @@ p {
 .fashion-row1 img{
     width:250px;
     height: 230px;
-    /* padding: 15px; */
-    /* border: 1px solid; */
     border-radius: 20px;
     
 }
@@ -230,31 +205,14 @@ p {
     background-color: rgb(29, 142, 150);
     border-color: rgb(248, 247, 245,0.5);
 }
-/* .shop-cart{
-    width: 30px;
-    height: 30px;
-    border: 1px solid red;
-    border-radius: 25px;
-    float: right;
-    color: rgb(29, 142, 150);
-    text-align: justify; */
-    
-    /* position:absolute;
-    justify-content: center;
-    align-items: center; */
-    
-
 .p-s-banner{
-    width: 100%;
-   background-color: aliceblue;
+    
    background-image: url(./Banners/b2.jpg);
-   /* background-size: cover; */
+   width: 99.95%;
+   background-size: cover; 
    padding-top: 30px;
    padding-bottom: 80px;
-   /* padding-left: 180px; */
    text-align: center;
-   
-   margin-left: 2px;
    color: whitesmoke;
    font-size: 25px;
 }
@@ -266,14 +224,11 @@ p {
     border-color: rgb(244, 245, 247,0.5);
     font-family: sans-serif;
 }
-
-
 .grid-container1{
     display: grid;
     grid-template-columns: auto;
     grid-auto-flow: column;
     justify-content: space-around;
-    /* margin-left: 50px; */
 }
 
 .banner-offers-1{
@@ -283,9 +238,7 @@ p {
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /* align-items: center;
-    justify-content: center; */
+
 }
 .banner-offers-2{
     color: whitesmoke;
@@ -329,7 +282,7 @@ p {
     justify-content: space-around;
     width: 100%;
     margin-top: 30px;
-    /* margin-left: 50px; */
+
 }
 
 .banner-offers-3{
@@ -339,9 +292,6 @@ p {
     height: 230px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /* align-items: center;
-    justify-content: center; */
 }
 .banner-offers-4{
     color: whitesmoke;
@@ -430,11 +380,6 @@ p {
     text-decoration: none;
     color: rgb(10, 10, 10);
 }
-/* #app-store img{
-    width: 60px;
-    height: 30px;
-    padding-left: 5px;
-} */
 .app-store-buttons1{
     background-image: url(./store_images/play.jpg);
     background-size: cover;
