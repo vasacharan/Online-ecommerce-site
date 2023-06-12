@@ -22,7 +22,6 @@ nav ul{
     margin: 0;
     padding: 0 20px;
     float: right;
-    
     justify-content: center;
 }
 nav ul li{
@@ -42,7 +41,7 @@ nav ul li a{
     text-decoration: none;
     color:black;
 }
-a:after{
+a::after{
     content: "";
     position: absolute;
     background-color: rgb(29, 142, 150);
@@ -71,7 +70,6 @@ a:hover:after{
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* position: absolute; */
 }
 .hero-cover{
     padding-top: 80px;
@@ -400,4 +398,5 @@ p {
     width: 120px;
     height: 35px;
 }
+
 
